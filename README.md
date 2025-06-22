@@ -1,6 +1,9 @@
 # Spring Boot JWT 인증 시스템
 
-Spring Boot와 JWT를 사용한 인증 시스템입니다. 카카오 소셜 로그인을 지원하며, Access Token과 Refresh Token을 사용한 보안 인증을 제공합니다. 또한 Gemini API를 활용한 챗봇 기능과 **Function Calling을 통한 날씨 정보 조회 기능**도 포함되어 있습니다.
+- Spring Boot와 JWT를 사용한 인증 시스템 구현.
+  - 카카오 소셜 로그인 지원
+  - Access Token과 Refresh Token을 사용한 보안 인증을 제공합니다.
+- Gemini API를 활용한 챗봇 기능, Function Calling을 통한 날씨 정보 조회 기능*
 
 ## 주요 기능
 
@@ -299,11 +302,3 @@ OpenWeather API: https://api.openweathermap.org/data/2.5/weather?q=서울,KR&app
 - **토큰 저장**: Refresh Token은 데이터베이스에 저장하여 관리
 - **챗봇 API**: 인증 없이 접근 가능 (public API)
 - **Function Calling**: 실시간 외부 API 연동
-
-## 주의사항
-
-- 프로덕션 환경에서는 JWT 시크릿 키를 환경 변수로 관리하세요
-- H2 데이터베이스는 개발용이므로 프로덕션에서는 MySQL, PostgreSQL 등을 사용하세요
-- 카카오 API 키는 별도로 설정해야 합니다
-- **Gemini API 키와 OpenWeather API 키는 보안을 위해 환경 변수로 관리하세요**
-- **Function Calling은 Gemini API의 최신 기능이므로 API 버전을 확인하세요** 
