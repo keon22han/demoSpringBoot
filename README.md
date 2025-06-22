@@ -1,3 +1,18 @@
+## 학습 내용 정리
+### Spring Bean 이란?
+https://velog.io/@keonheehan/Springboot-Spring-Bean이란
+
+### Annotation 종류 정리
+https://velog.io/@keonheehan/Springboot-내가-보기-위한-Annotation-종류-정리
+
+### JPA 란? 
+https://velog.io/@keonheehan/Springboot-JPA란
+
+### application.properties 란?
+https://velog.io/@keonheehan/SpringBoot-application.properties란
+
+---
+
 # Spring Boot JWT 인증 시스템
 
 - Spring Boot와 JWT를 사용한 인증 시스템 구현
