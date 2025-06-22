@@ -3,7 +3,7 @@
 - Spring Boot와 JWT를 사용한 인증 시스템 구현.
   - 카카오 소셜 로그인 지원
   - Access Token과 Refresh Token을 사용한 보안 인증을 제공합니다.
-- Gemini API를 활용한 챗봇 기능, Function Calling을 통한 날씨 정보 조회 기능*
+- Gemini API를 활용한 챗봇 기능, Function Calling을 통한 날씨 정보 조회 기능
 
 ## 주요 기능
 
