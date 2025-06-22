@@ -1,0 +1,13 @@
+package com.example.demospringboot.dto.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ChatbotQuestionRequest {
+    private String question;
+    private String answer;
+} 
