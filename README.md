@@ -1,3 +1,18 @@
+## 학습 내용 정리
+### Spring Bean 이란?
+https://velog.io/@keonheehan/Springboot-Spring-Bean이란
+
+### Annotation 종류 정리
+https://velog.io/@keonheehan/Springboot-내가-보기-위한-Annotation-종류-정리
+
+### JPA 란? 
+https://velog.io/@keonheehan/Springboot-JPA란
+
+### application.properties 란?
+https://velog.io/@keonheehan/SpringBoot-application.properties란
+
+---
+
 # Spring Boot JWT 인증 시스템
 
 Spring Boot와 JWT를 사용한 인증 시스템입니다. 카카오 소셜 로그인을 지원하며, Access Token과 Refresh Token을 사용한 보안 인증을 제공합니다. 또한 Gemini API를 활용한 챗봇 기능과 **Function Calling을 통한 날씨 정보 조회 기능**도 포함되어 있습니다.
@@ -307,3 +322,4 @@ OpenWeather API: https://api.openweathermap.org/data/2.5/weather?q=서울,KR&app
 - 카카오 API 키는 별도로 설정해야 합니다
 - **Gemini API 키와 OpenWeather API 키는 보안을 위해 환경 변수로 관리하세요**
 - **Function Calling은 Gemini API의 최신 기능이므로 API 버전을 확인하세요** 
+
